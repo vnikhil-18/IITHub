@@ -1,0 +1,20 @@
+.sidebarSubject{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+.sidebarSubject:hover{
+    background-color: rgb(228, 224, 224);
+}
+.sidebarSubject_info > h5{
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+.sidebarSubject_info{
+    margin-left:30px;
+}
+.sidebarSubject_info > p{
+    font-size: 10px;
+    color: gray;
+}

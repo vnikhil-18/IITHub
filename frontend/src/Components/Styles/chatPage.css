@@ -1,0 +1,130 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.chat-page .chat-container {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 80%;
+  margin-top: 60px;
+}
+
+.chat-page .message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd transparent;
+  height: 80%;
+}
+.chat-page .messageCard{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.chat-page .input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #e1e1e1;
+}
+
+.chat-page .message-input {
+  position: fixed;
+  flex-grow: 1;
+  /* padding: 1px; */
+  border: none;   
+  border-radius: 20px;
+  outline: none;
+  bottom: 0;
+  width: 79%;
+  margin-bottom: 10px;
+}
+
+.chat-page .send-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.chat-page .chat-header{
+  outline: none;
+  height: 5%;
+  width: 100%;
+} 
+.chat-page .headerCard{
+  background-color: #fff;
+  color: #343a40  ;
+}
+.chat-page .headerText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+.chat-page .passive{
+  display: none;
+}
+.chat-page .sendbutton{
+  background-color: #0D6EFD;
+  color: #fff;
+  border-color: #0D6EFD;
+}
+.chat-page .message-card {
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+
+}
+.chat-page .add {
+  justify-content: center;
+  margin:0;
+}
+#lightbox2 {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  z-index: 999;
+  text-align: center;
+}
+
+.chat-page .close2 {
+  top: 1rem;
+  right: 2rem;
+}
+@media (max-width: 600px) {
+  .chat-page {
+    display:block;
+  }
+  .chat-page .message-input{
+    width: 100%;
+  }
+  .hide{
+    display: none;
+  }
+  
+}

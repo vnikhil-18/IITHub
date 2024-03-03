@@ -1,0 +1,9 @@
+.custom-navbar {
+    height: 65px;
+    font-size: 17px;
+    
+}
+.navbar-nav .nav-item a {
+    color: #000000a6 !important;
+  }
+  

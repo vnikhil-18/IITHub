@@ -1,0 +1,143 @@
+.sideBar{
+    width:100%;
+    background-color: #fff; /* Light background color */
+}
+.sideBarList{
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+.sideBarList .row{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px; 
+    background-color: #fff;
+    border: 1px solid #fff;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #343a40;
+    border-radius: 10px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: start; /* Align text to the start of the box */
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.sideBarList .row:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.yourchat .row1{
+    background-color: #fff; /* Lighter background color */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343a40; /* Darker text color for contrast */
+    border-radius: 15px;
+    margin: 10px; /* Symmetric margins */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sideBarList .row-split{
+    background-color: #fff; /* Lighter background color */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343a40; /* Darker text color for contrast */
+    border-radius: 15px;
+    margin: 10px; /* Symmetric margins */
+    font-weight: bold;
+}
+.sideBarList #active{
+    background-color: #ddd; /* Light active color */
+}
+.row-split #icon{
+    /* background-color: black; */
+    flex: 30%;
+    height: 50px;
+    border-left: 1px solid #ddd; /* Light border color */
+    display: grid;
+    place-items: center;
+}
+.row-split #add{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0; /* Symmetric vertical margins */
+    border-radius: 10px; /* Increased border radius for a softer look */
+    display: flex;
+    flex-direction: row;
+    color: #343a40; /* Darker text color for contrast */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+}
+.passive{
+    display: none;
+}
+
+.request{
+    width: 80%;
+    height: 50px;
+    margin: 10px 5px; /* Symmetric margins */
+    border-radius: 10px; /* Increased border radius for a softer look */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #343a40; /* Darker text color for contrast */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+}
+
+.request1{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0; /* Symmetric vertical margins */
+    border-radius: 10px; /* Increased border radius for a softer look */
+    display: flex;
+    flex-direction: row;
+    color: #343a40; /* Darker text color for contrast */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+}
+
+.request1 #inp{
+    flex: 90%;
+    height: 50px;
+    border: 1px solid #e9ecef; /* Lighter border color */
+    border-radius: 10px; /* Increased border radius for a softer look */
+    display: grid;
+    place-items: center;
+}
+
+.request1 .Interest{
+    width: 90%;
+    height: 75%;
+    border-radius: 10px; /* Increased border radius for a softer look */
+}
+
+.temp{
+    height: 50px;
+    width:100%;
+}
+
+.request #plus,#cross{
+    flex: 15%;
+    height: 50px;
+    background-color: #0056b3;
+    display: grid;
+    place-items: center;
+}
+
+.ruler {
+    height: 1px; /* Make it thin */
+    background-color: black; /* Change the color to black */
+    margin: 15px 0; /* Add some vertical margin */
+}

@@ -1,0 +1,114 @@
+.groupchatpage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #efeae2;
+}
+
+.groupchatpage .chat-container {
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  height: 80%;
+}
+
+.groupchatpage .message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd transparent;
+  height: 99vh;
+}
+.groupchatpage .messageCard{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.groupchatpage .input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #e1e1e1;
+}
+
+.groupchatpage .message-input {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  border: none;   
+  border-radius: 20px;
+  outline: none;
+  bottom: 0;
+  margin-bottom: 7px;
+  width: 79%;
+}
+
+.groupchatpage .send-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #128c7e;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.groupchatpage .send-button:hover {
+  background-color: #0d6e61;
+}
+.groupchatpage .sendbutton1{
+  background-color: #FC93AE;
+  color: #fff;
+  border-color: #fff;
+}
+.groupchatpage .chat-header1{
+  z-index: 1;
+  height: 5%;
+  width: 100%;
+  top: 58px;
+} 
+.groupchatpage .chat-header-user1{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+
+}
+.groupchatpage .headerCard1{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+.groupchatpage .headerText1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #343a40;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+
+}
+.groupchatpage .message-card {
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+}
+.groupchatpage .text1{
+  color: #343a40;
+}
+
+@media (max-width: 600px) {
+  .groupchatpage .message-input{
+    width: 100%;
+  }
+}

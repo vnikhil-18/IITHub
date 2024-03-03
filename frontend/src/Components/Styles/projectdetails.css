@@ -1,0 +1,44 @@
+.projectdetails {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.projectdetails h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.projectdetails h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.projectdetails p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-left: 20px;
+}
+
+.projectdetails p[style*="white-space:break-spaces"] {
+  white-space: break-spaces;
+}
+
+@media screen and (max-width: 768px) {
+  .projectdetails h1 {
+    font-size: 20px;
+  }
+  .projectdetails h4 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .projectdetails p {
+    font-size: 14px;
+  }
+}

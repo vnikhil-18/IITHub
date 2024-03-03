@@ -1,0 +1,42 @@
+.adminUser {
+  margin-top:5rem;
+}
+.adminUser .border-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 1vw;
+    border-radius: 5px;
+    overflow: scroll;
+    height: 70vh;
+    width: 30vw
+}
+
+.adminInterest .border-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 1vw;
+    border-radius: 5px;
+    max-height: 10%;
+    width: 48vw;
+}
+
+.adminAcad .border-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 1vw;
+    border-radius: 5px;
+    max-height: 10%;
+    width: 48vw;
+}
+  
+  @media (max-width: 768px) {
+    .adminUser .border-box {
+      width: 100vw; 
+    }
+    .adminInterest .border-box {
+      width: 100vw; 
+    }
+    .adminAcad .border-box {
+      width: 100vw; 
+    }
+  }

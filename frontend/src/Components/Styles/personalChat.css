@@ -1,0 +1,30 @@
+.divide{
+    width: 100%;
+    height: 93.8vh;
+    background-color: #efeae2;
+}
+.left ,.hide1{
+    width: 20%;
+    background-color: #ffffff;
+    float: left;
+
+}
+.right,.hide2 {
+    width: 80%;
+    background-color: #efeae2;
+    float: right;
+}
+@media screen and (max-width: 1250px) {
+    .right {
+        width: 100%;
+        background-color: #efeae2;
+    }    
+    .hide1,.hide2{
+        display:none;
+    }
+    .left{
+        background-color: #ffffff;
+        width: 100%;
+    }
+    
+}
